@@ -12,13 +12,13 @@ namespace SampleWebAPI.Controllers
             {
                 Id = 0,
                 Name = "Red Truck",
-                Description = "A red truck"
+                Description = "Not a red car"
             },
             new Product
             {
                 Id = 1,
-                Name = "Blue Car",
-                Description = "A blue car"
+                Name = "White Car",
+                Description = "Not a blue car"
             },
             new Product
             {
