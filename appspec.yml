@@ -1,0 +1,8 @@
+## Windows CodeDeploy
+## https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows-configure-content.html
+
+version: 0.0
+os: windows
+files:
+  - source: \PackageTmp
+    destination: c:\inetpub\wwwroot\SampleWebAPI_deploy
